@@ -3,7 +3,7 @@ from os import environ
 from urllib.parse import urljoin
 from urllib.error import HTTPError
 
-apps = ['weightmon', 'augmented-rss']
+apps = ['weightmon', 'augmented-rss', 'bombiquecom']
 app_url_template = 'http://{0}.herokuapp.com'
 for a in apps:
 	print('pinging', a)
